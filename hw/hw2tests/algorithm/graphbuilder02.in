@@ -1,0 +1,16 @@
+6
+a 1
+b 2
+c 3
+d 4
+e 1
+f 1
+
+---
+Expected result: 
+a: [d]
+b: [d, c]
+c: [d, b, f]
+d: [c, b, a, e]
+e: [d]
+f: [c]
